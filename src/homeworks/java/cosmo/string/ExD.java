@@ -10,6 +10,11 @@ package homeworks.java.cosmo.string;
 public class ExD {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
+        char[] inputCharArray = input.toCharArray();
+        for (int i = 0; i < inputCharArray.length; i++){
+            System.out.println(inputCharArray[i]);
+        }
+
 
     }
 }

@@ -11,5 +11,8 @@ public class ExB {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
 
+        StringBuilder inputStringBuilder = new StringBuilder(input);
+        System.out.println(inputStringBuilder.reverse());
+
     }
 }

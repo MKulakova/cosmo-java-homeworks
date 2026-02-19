@@ -11,5 +11,12 @@ public class ExC {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
 
+        int result = 0;
+        String[] words = input.split(" ");
+        for (int i = 0; i<words.length; i++){
+            result++;
+        }
+
+        System.out.println(result);
     }
 }
